@@ -11,18 +11,18 @@
         <datasource-mapping>
           <factory-entry name="LOCAL_PERSISTENCE" value="63f02f34-5175-4813-9fe8-59f5c1b43c2c" />
         </datasource-mapping>
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/../S4H5JPA2/src/main/META-INF/persistence.xml" />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/java/META-INF/persistence.xml" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../S4H5JPA2/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../S4H5JPA2/target/test-classes" />
-    <content url="file://$MODULE_DIR$/../S4H5JPA2">
-      <sourceFolder url="file://$MODULE_DIR$/../S4H5JPA2/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../S4H5JPA2/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../S4H5JPA2/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../S4H5JPA2/target" />
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
